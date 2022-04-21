@@ -49,6 +49,13 @@ function App() {
         </div>
       </article>
     </main>
+    <footer>
+      <p><a>Guidelines</a> | <a>FAQ</a> | <a>Lists</a> | <a>API</a> | <a>Security</a> | <a>Legal</a> | <a>Apply to YC</a> | <a>Contact</a></p>
+      <form>
+        <input type="text" name="search-bar" id="search-bar" placeholder="Type in search" />
+        <button type="submit">Search</button>
+      </form>
+    </footer>
     </>
   );
 }
